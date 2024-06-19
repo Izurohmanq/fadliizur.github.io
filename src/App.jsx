@@ -3,6 +3,8 @@ import "./App.css";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import TechStackPage from "./pages/TechStack";
+import ProjectPage from "./pages/Project";
+import ContactPage from "./pages/Contact";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/techstack" element={<TechStackPage />} />
+          <Route path="/project" element={<ProjectPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
     </>

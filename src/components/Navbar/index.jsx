@@ -10,27 +10,27 @@ export default function Navbar() {
         <nav className="navbar-bawah fixed bottom-0 left-0 right-0 flex justify-center items-center content-center bg-slate-950/30 w-1/2 mx-auto p-3 mb-10 rounded-lg">
           <span>
             <Link to="/">
-              <img src={Home} className="size-12 me-9"></img>
+              <img src={Home} className="transition ease-in-out duration-300 transition ease-in-out duration-300 size-10 me-9 hover:scale-125 hover:scale-125"></img>
             </Link>
           </span>
           <span>
             <Link to="/about">
-              <img src={About} className="size-12 me-9"></img>
+              <img src={About} className="transition ease-in-out duration-300 size-10 me-9 hover:scale-125"></img>
             </Link>
           </span>
           <span>
             <Link to="/techstack">
-              <img src={TechStack} className="size-12 me-9"></img>
+              <img src={TechStack} className="transition ease-in-out duration-300 size-10 me-9 hover:scale-125"></img>
             </Link>
           </span>
           <span>
-            <Link to="#task">
-              <img src={Project} className="size-12 me-9"></img>
+            <Link to="/project">
+              <img src={Project} className="transition ease-in-out duration-300 size-10 me-9 hover:scale-125"></img>
             </Link>
           </span>
           <span>
-            <Link to="#contact">
-              <img src={Contact} className="size-12"></img>
+            <Link to="/contact">
+              <img src={Contact} className="transition ease-in-out duration-300 size-10 me-9 hover:scale-125"></img>
             </Link>
           </span>
         </nav>

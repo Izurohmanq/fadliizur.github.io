@@ -7,10 +7,10 @@ export default function About() {
       <div id="about" className="about mb-8">
         <div className="flex justify-center">
           <div className="max-w-3xl my-5">
-            <h1 className="text-center text-white">About</h1>
+            <h1 className="text-center text-white text-2xl">About</h1>
             <img
               src={Kolase}
-              className="w-full rounded-3xl border-3 mt-5 border-white"
+              className="w-full rounded-3xl border-3 mt-5 border-4 border-white"
               alt="header foto about"
             />
             <article className="mt-5 space-y-4 text-white">
