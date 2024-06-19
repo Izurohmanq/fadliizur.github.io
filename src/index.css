@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat"); /* Using a url */
+@import url("https://fonts.googleapis.com/css?family=Poppins"); /* Using a url */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Montserrat, Poppins;
+  background: linear-gradient(80deg, #441313, #5c1717, #bd2c2c);
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
