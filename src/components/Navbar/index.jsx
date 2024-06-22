@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar content-center mb-20">
-        <nav className="navbar-bawah fixed bottom-0 left-0 right-0 flex justify-center items-center content-center bg-slate-950/30 w-1/2 mx-auto p-3 mb-10 rounded-lg">
+        <nav className="navbar-bawah fixed bottom-0 left-0 right-0 flex justify-center items-center content-center bg-slate-950/30 w-100 md:w-1/2 mx-auto p-3 md:mb-10 rounded-lg">
           <span>
             <Link to="/">
               <img src={Home} className="transition ease-in-out duration-300 transition ease-in-out duration-300 size-10 me-9 hover:scale-125 hover:scale-125"></img>
@@ -30,7 +30,7 @@ export default function Navbar() {
           </span>
           <span>
             <Link to="/contact">
-              <img src={Contact} className="transition ease-in-out duration-300 size-10 me-9 hover:scale-125"></img>
+              <img src={Contact} className="transition ease-in-out duration-300 size-10 md:me-9 hover:scale-125"></img>
             </Link>
           </span>
         </nav>

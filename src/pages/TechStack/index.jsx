@@ -21,7 +21,7 @@ function TechImage({ src, alt }) {
 export default function TechStack() {
   return (
     <>
-      <section id="techStack" className="techStack py-10 mt-52">
+      <section id="techStack" className="techStack py-10 mt-28 md:mt-52">
         <div className="container mx-auto text-center">
           <p className="text-lg font-semibold mb-5 text-white">
             <i>Tech stack</i> yang kadang saya gunakan:

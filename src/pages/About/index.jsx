@@ -13,7 +13,7 @@ export default function About() {
               className="w-full rounded-3xl border-3 mt-5 border-4 border-white"
               alt="header foto about"
             />
-            <article className="mt-5 space-y-4 text-white">
+            <article className="mt-5 px-5 space-y-4 text-white text-justify">
               <p>Halo semuanya!!</p>
               <p>
                 Kenalin nama saya Fadli Izurohman. Lahir di rumah sakit pada
@@ -21,11 +21,11 @@ export default function About() {
                 bidang data dan web.
               </p>
               <p>
-                Untuk saat ini pada bidang web saya berfokus kepada Front-end
-                saja. Terkadang saya juga nyerempet-nyerempet ke back-end juga
-                seperti Laravel dan Node JS, walaupun sebenarnya sekarang sambil belajar Golang. Untuk bidang data sendiri, saya fokus kepada
+                Untuk saat ini pada bidang web saya berfokus kepada Front-end ReactJS dan ke Back-end juga
+                seperti Laravel dan Node JS, sementara di lain waktu sekarang sambil belajar Golang. 
+                Untuk bidang data sendiri, saya fokus kepada
                 bahasa pemrograman python beserta library-nya, seperti pandas,
-                numpy, dan sekarang lagi nyerempet-nyerempet ke scikit learn
+                numpy, dan scikit learn, walaupun sebenarnya sekarang lagi nyicil Tensorflow.
               </p>
               <p>
                 Mungkin, sekian dari saya. Sekali lagi terima kasih atas
