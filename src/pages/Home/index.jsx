@@ -1,9 +1,18 @@
 import FadliFoto from "../../assets/fadli2.jpg";
 import SNavbar from "../../components/Navbar";
+import Head from "../../components/Head";
+
+
 
 export default function HomePage() {
   return (
     <>
+    <Head 
+      title="Selamat datang!!"
+      desc="Halo Iju di sini Selamat datang di web portfoliokuu"
+      keywords="web portfolio, react js"
+    />
+    
     <div className="flex flex-col md:flex-row justify-center items-center my-10 xl:my-36">
       <img src={FadliFoto} alt="foto izur" className="rounded-lg me-0 md:me-5"/>
       <div className="greetings text-white text-center sm:text-start mt-5 md:mt-0">

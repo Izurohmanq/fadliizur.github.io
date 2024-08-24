@@ -5,10 +5,12 @@ import AboutPage from "./pages/About";
 import TechStackPage from "./pages/TechStack";
 import ProjectPage from "./pages/Project";
 import ContactPage from "./pages/Contact";
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
     <>
+    <HelmetProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -18,6 +20,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
+    </HelmetProvider>
     </>
   );
 }

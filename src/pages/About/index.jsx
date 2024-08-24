@@ -1,9 +1,15 @@
 import Kolase from "../../assets/about-aset/kolase foto.png";
+import Head from "../../components/Head";
 import SNavbar from "../../components/Navbar";
 
 export default function About() {
   return (
     <>
+      <Head
+        title="About Iju"
+        desc="penjelasan mengenai siapa diriku sebenarnya"
+        keywords="web portfolio, react js"
+      />
       <div id="about" className="about mb-8">
         <div className="flex justify-center">
           <div className="max-w-3xl my-5">
@@ -21,11 +27,12 @@ export default function About() {
                 bidang data dan web.
               </p>
               <p>
-                Untuk saat ini pada bidang web saya berfokus kepada Front-end ReactJS dan ke Back-end juga
-                seperti Laravel dan Node JS, sementara di lain waktu sekarang sambil belajar Golang. 
-                Untuk bidang data sendiri, saya fokus kepada
-                bahasa pemrograman python beserta library-nya, seperti pandas,
-                numpy, dan scikit learn, walaupun sebenarnya sekarang lagi nyicil Tensorflow.
+                Untuk saat ini pada bidang web saya berfokus kepada Front-end
+                ReactJS dan ke Back-end juga seperti Laravel dan Node JS,
+                sementara di lain waktu sekarang sambil belajar Golang. Untuk
+                bidang data sendiri, saya fokus kepada bahasa pemrograman python
+                beserta library-nya, seperti pandas, numpy, dan scikit learn,
+                walaupun sebenarnya sekarang lagi nyicil Tensorflow.
               </p>
               <p>
                 Mungkin, sekian dari saya. Sekali lagi terima kasih atas
