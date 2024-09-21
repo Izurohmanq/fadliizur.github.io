@@ -34,9 +34,9 @@ export default function TechStack() {
         desc="Beberapa techstack yang pernah digunakan"
         keywords="web portfolio, react js, python, bootstrap, laravel, html, css, tailwind"
       />
-      <section id="techStack" className="techStack py-10 mt-28 md:mt-52">
+      <section id="techStack" className="techStack min-h-screen flex flex-col justify-center items-center">
         <div className="container mx-auto text-center">
-          <p className="text-lg font-semibold mb-5 text-white">
+          <p className="md:text-3xl text-lg font-semibold mb-5 text-white">
             <i>Tech stack</i> yang kadang saya gunakan:
           </p>
           <div className="flex flex-wrap justify-center items-center">

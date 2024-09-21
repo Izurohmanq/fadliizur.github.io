@@ -12,10 +12,10 @@ export default function Contact() {
         desc="Beberapa contact yang bisa kamu hubungi"
         keywords="web portfolio, react js, linkedin, spotify"
       />
-      <div id="contact" className="contact mb-8">
+      <div id="contact" className="contact min-h-screen flex flex-col justify-center items-center">
         <div className="flex justify-center">
           <div className="max-w-3xl my-10">
-            <h1 className="text-center text-white text-2xl">Contact</h1>
+            <h1 className="text-center text-white text-3xl">Contact</h1>
             <div className="Content flex flex-col md:flex-row justify-center items-center mt-5">
               <ClickCard
                 image={LinkedinImage}
