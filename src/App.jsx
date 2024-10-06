@@ -6,6 +6,7 @@ import TechStackPage from "./pages/TechStack";
 import ProjectPage from "./pages/Project";
 import ContactPage from "./pages/Contact";
 import { HelmetProvider } from 'react-helmet-async';
+import ExperiencePage from "./pages/XP";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/techstack" element={<TechStackPage />} />
           <Route path="/project" element={<ProjectPage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>

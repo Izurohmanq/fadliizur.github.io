@@ -20,8 +20,10 @@ export default function Contact() {
               <ClickCard
                 image={LinkedinImage}
                 judul="Linkedin"
-                desc="Let's Connect!!"
-                href="https://www.linkedin.com/in/fadli-izurohman/"
+                desc="Linkedin"
+                tag="Halo semuanya, silakan untuk menghubungi saya bisa melalui Linkedin berikut. Terima Kasih !! 😀"
+                utils="Let's Connect!!"
+                link="https://www.linkedin.com/in/fadli-izurohman/"
               />
               <Spotify link="https://open.spotify.com/playlist/1tfWgRXaUizmYBD8sM4axM?si=61494593fbab43e7" />
             </div>
