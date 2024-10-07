@@ -7,7 +7,7 @@ export default function ExperiencePage() {
   return (
     <>
       <Head
-        title="Experience"
+        title="Experience | Fadli Izurohman"
         desc="Beberapa Experience selama berkarir pada bidang web development"
         keywords="web Experience, react js, laravel, php, sql, gcp, javascript, nodejs, tailwind, material ui"
       />

@@ -30,7 +30,7 @@ export default function TechStack() {
   return (
     <>
       <Head
-        title="TechStack"
+        title="TechStack | Fadli Izurohman"
         desc="Beberapa techstack yang pernah digunakan"
         keywords="web portfolio, react js, python, bootstrap, laravel, html, css, tailwind"
       />

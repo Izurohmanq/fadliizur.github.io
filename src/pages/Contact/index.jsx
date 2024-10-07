@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <>
       <Head
-        title="Contact Iju"
+        title="Contact | Fadli Izurohman"
         desc="Beberapa contact yang bisa kamu hubungi"
         keywords="web portfolio, react js, linkedin, spotify"
       />

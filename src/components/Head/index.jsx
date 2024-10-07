@@ -12,6 +12,9 @@ export default function Head({ title,desc, keywords }) {
         <title>{title}</title>
         <meta name="description" content={desc} />
         <meta name="keywords" content={keywords} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={desc} />
+        <meta name="robots" content="index, follow" />
       </Helmet>
     </>
   );

@@ -7,7 +7,7 @@ export default function Project() {
   return (
     <>
       <Head
-        title="Portfolio"
+        title="Portfolio | Fadli Izurohman"
         desc="Beberapa portfolio selama berkarir pada bidang web development"
         keywords="web portfolio, react js, laravel, php, sql, gcp, javascript, nodejs, tailwind, material ui"
       />

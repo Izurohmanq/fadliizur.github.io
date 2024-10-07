@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <>
       <Head 
-        title="Selamat datang!!"
+        title="Home | Fadli Izurohman"
         desc="Halo Iju di sini Selamat datang di web portfoliokuu"
         keywords="web portfolio, react js"
       />

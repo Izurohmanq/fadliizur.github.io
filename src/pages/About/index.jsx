@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <Head
-        title="About Iju"
+        title="About | Fadli Izurohman"
         desc="penjelasan mengenai siapa diriku sebenarnya"
         keywords="web portfolio, react js"
       />
