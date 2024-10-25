@@ -16,6 +16,7 @@ export default function ClickCard({ image, judul, desc, tag, utils, link}) {
               image={image}
               alt={judul}
               sx={{ objectFit: "cover", width: "100%", height: "150px" }}
+              loading="lazy"
             />
             <CardContent sx={{ height: 260 }}>
               <Typography gutterBottom variant="h5" component="div">

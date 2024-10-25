@@ -22,6 +22,7 @@ function TechImage({ src, alt }) {
       className="w-auto h-20 m-2 transition ease-in-out hover:scale-125"
       src={src}
       alt={alt}
+      loading="lazy"
     />
   );
 }
