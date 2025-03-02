@@ -5,6 +5,9 @@ export default {
   ],
   theme: {
     borderWidth: {
+      fontFamily: {
+        poppins: ['Poppins, sans-serif'],
+    },
       DEFAULT: '1px',
       '0': '0',
       '2': '2px',

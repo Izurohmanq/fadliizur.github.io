@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Montserrat, Poppins;
+  font-family: Poppins;
   background: linear-gradient(80deg, #441313, #5c1717, #bd2c2c);
   line-height: 1.5;
   font-weight: 400;

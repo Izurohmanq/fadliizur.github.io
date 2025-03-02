@@ -15,7 +15,7 @@ export default function Contact() {
       <div id="contact" className="contact min-h-screen flex flex-col justify-center items-center">
         <div className="flex justify-center">
           <div className="max-w-3xl my-10">
-            <h1 className="text-center text-white text-3xl">Contact</h1>
+            <h1 className="font-bold text-center text-white text-3xl">Contact</h1>
             <div className="Content flex flex-col md:flex-row justify-center items-center mt-5">
               <ClickCard
                 image={LinkedinImage}

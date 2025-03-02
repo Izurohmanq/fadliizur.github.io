@@ -13,7 +13,7 @@ export default function About() {
       <div id="about" className="about min-h-screen flex flex-col justify-center items-center">
         <div className="flex justify-center">
           <div className="max-w-3xl my-5">
-            <h1 className="text-center text-white text-3xl">About</h1>
+            <h1 className="font-bold text-center text-white text-3xl">About</h1>
             <div className="px-5"> 
               <img
                 src={Kolase}
@@ -22,7 +22,7 @@ export default function About() {
               />
             </div>
             <article className="mt-5 px-5 space-y-4 text-white text-justify">
-              <p>Halo semuanya!!</p>
+              <p className="font-semibold text-5xl md:text-3xl text-center md:text-start">Halo semuanya!!</p>
               <p>
                 Perkenalkan nama saya Fadli Izurohman. Lahir di rumah sakit pada
                 tanggal 16. Saat ini saya memiliki ketertarikan pada
