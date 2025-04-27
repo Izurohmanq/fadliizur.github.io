@@ -13,7 +13,7 @@ export default function About() {
       <div id="about" className="about min-h-screen flex flex-col justify-center items-center">
         <div className="flex justify-center">
           <div className="max-w-3xl my-5">
-            <h1 className="font-bold text-center text-white text-3xl">About</h1>
+            <h1 className="font-bold text-center text-white text-3xl md:text-5xl">About</h1>
             <div className="px-5"> 
               <img
                 src={Kolase}
@@ -22,18 +22,17 @@ export default function About() {
               />
             </div>
             <article className="mt-5 px-5 space-y-4 text-white text-justify">
-              <p className="font-semibold text-5xl md:text-3xl text-center md:text-start">Halo semuanya!!</p>
+              <p className="font-semibold text-5xl md:text-1xl text-center md:text-start">Halo semuanya!!</p>
               <p>
-                Perkenalkan nama saya Fadli Izurohman. Lahir di rumah sakit pada
-                tanggal 16. Saat ini saya memiliki ketertarikan pada
-                bidang data, web, dan mobile development.
+                Perkenalkan nama saya Fadli Izurohman, bisa dipanggil iju/fadli. Saat ini saya berdomisili di Bandung dan 
+                saya adalah seorang fresh graduate yang memiliki ketertarikan pada web, baik front-end maupund back-end dan mobile development.
               </p>
               <p>
                 Untuk saat ini, pada bidang web saya berfokus kepada Front-end
                 ReactJS dan ke Back-end juga seperti Laravel dan Node JS,
-                sementara di lain waktu sambil belajar Golang untuk Back-end dan Flutter untuk mobile development. 
-                Untuk bidang data sendiri, saya fokus kepada bahasa pemrograman python
-                beserta library-nya, seperti pandas, numpy, scikit learn, dan Tensorflow.
+                sementara di lain waktu sambil belajar Golang untuk Back-end dan Flutter untuk mobile development.
+                Seiring berjalannya dengan waktu, saya juga mempelajari bahasa pemrograman lainnya,
+                seperti Golang. Tidak hanya itu saja, saya pun mempelajari GCP untuk DevOps.
               </p>
               <p>
                 Mungkin, sekian dari saya. Sekali lagi terima kasih atas

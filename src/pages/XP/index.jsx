@@ -12,7 +12,7 @@ export default function ExperiencePage() {
         keywords="web Experience, react js, laravel, php, sql, gcp, javascript, nodejs, tailwind, material ui"
       />
       <div className="task min-h-screen flex flex-col justify-center items-center">
-        <h1 className="text-center text-white text-3xl font-bold my-5">
+        <h1 className="text-center text-white text-3xl md:text-5xl font-bold my-5">
           Experience
         </h1>
 

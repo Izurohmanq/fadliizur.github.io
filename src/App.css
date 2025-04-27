@@ -694,6 +694,18 @@ video {
   height: 5rem;
 }
 
+.h-96{
+  height: 24rem;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-24{
+  height: 6rem;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -704,6 +716,10 @@ video {
 
 .w-8{
   width: 2rem;
+}
+
+.w-80{
+  width: 20rem;
 }
 
 .w-auto{
@@ -769,6 +785,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -795,6 +815,36 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-left{
+  -o-object-position: left;
+     object-position: left;
+}
+
+.object-\[25\%_75\%\]{
+  -o-object-position: 25% 75%;
+     object-position: 25% 75%;
+}
+
+.object-\[15\%_75\%\]{
+  -o-object-position: 15% 75%;
+     object-position: 15% 75%;
+}
+
+.object-\[10\%_75\%\]{
+  -o-object-position: 10% 75%;
+     object-position: 10% 75%;
+}
+
+.object-\[5\%_75\%\]{
+  -o-object-position: 5% 75%;
+     object-position: 5% 75%;
+}
+
 .p-3{
   padding: 0.75rem;
 }
@@ -812,10 +862,6 @@ video {
   text-align: justify;
 }
 
-.text-start{
-  text-align: start;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -826,11 +872,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -839,6 +880,11 @@ video {
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -878,7 +924,8 @@ video {
 
 :root {
   font-family: Poppins;
-  background: linear-gradient(80deg, #441313, #5c1717, #bd2c2c);
+  background: linear-gradient(135deg, #1a1a1a, #5f0f40, #9a031e);
+  /* background: linear-gradient(80deg, #441313, #5c1717, #bd2c2c); */
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -933,17 +980,13 @@ video {
     flex-direction: row;
   }
 
-  .md\:text-center{
-    text-align: center;
-  }
-
   .md\:text-start{
     text-align: start;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-5xl{

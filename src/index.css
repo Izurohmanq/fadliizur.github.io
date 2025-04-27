@@ -6,7 +6,8 @@
 
 :root {
   font-family: Poppins;
-  background: linear-gradient(80deg, #441313, #5c1717, #bd2c2c);
+  background: linear-gradient(135deg, #1a1a1a, #5f0f40, #9a031e);
+  /* background: linear-gradient(80deg, #441313, #5c1717, #bd2c2c); */
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;

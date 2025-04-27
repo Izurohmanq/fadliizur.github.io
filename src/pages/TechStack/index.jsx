@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import assets from "../../assets/techstack-aset/techstack-aset";
 import Head from "../../components/Head";
 
-const { Bootstrap, CSS, Laravel, Mysql, Nodejs, Python, React, Tailwind } =
+const { Bootstrap, CSS, Laravel, Mysql, Nodejs, Python, React, Tailwind, Postgresql, Git, Gcp, Golang, Nestjs} =
   assets;
 
 const techStack = [
@@ -14,6 +14,11 @@ const techStack = [
   { src: Python, alt: "Python logo" },
   { src: React, alt: "React logo" },
   { src: Tailwind, alt: "Tailwind logo" },
+  { src: Postgresql, alt: "Postgresql logo" },
+  { src: Git, alt: "Git logo" },
+  { src: Gcp, alt: "Gcp logo" },
+  { src: Golang, alt: "Golang logo" },
+  { src: Nestjs, alt: "Nestjs logo" },
 ];
 
 function TechImage({ src, alt }) {
@@ -37,8 +42,8 @@ export default function TechStack() {
       />
       <section id="techStack" className="techStack min-h-screen flex flex-col justify-center items-center">
         <div className="container mx-auto text-center">
-          <p className="md:text-3xl text-lg font-semibold mb-5 text-white">
-            <i>Tech stack</i> yang kadang saya gunakan:
+          <p className="md:text-4xl text-xl font-semibold mb-5 text-white">
+            <i>Tech stack atau Tools</i> yang kadang saya gunakan:
           </p>
           <div className="flex flex-wrap justify-center items-center">
             {techStack.map((tech, index) => (

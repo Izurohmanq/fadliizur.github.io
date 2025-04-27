@@ -6,6 +6,11 @@ import Nodejs from "./nodejs.png";
 import Python from "./python.png";
 import React from "./react.png";
 import Tailwind from "./tailwind.png";
+import Postgresql from "./postgresql.png";
+import Git from "./Git.png";
+import Gcp from "./Gcp.png";
+import Golang from "./golang.png";
+import Nestjs from "./nestjs.png";
 
 export default {
   Bootstrap,
@@ -16,4 +21,9 @@ export default {
   Python,
   React,
   Tailwind,
+  Postgresql,
+  Git,
+  Gcp,
+  Golang,
+  Nestjs,
 };

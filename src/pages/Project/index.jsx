@@ -11,8 +11,8 @@ export default function Project() {
         desc="Beberapa portfolio selama berkarir pada bidang web development"
         keywords="web portfolio, react js, laravel, php, sql, gcp, javascript, nodejs, tailwind, material ui"
       />
-      <div className="task min-h-screen flex flex-col justify-center items-center">
-        <h1 className="text-center text-white text-3xl font-bold my-5">
+      <div className="task min-h-screen flex flex-col justify-center items-center mt-5">
+        <h1 className="text-center text-white text-3xl md:text-5xl font-bold my-5">
           Project
         </h1>
 

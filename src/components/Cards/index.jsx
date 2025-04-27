@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function ClickCard({ image, judul, desc, tag, utils, link}) {
   return (
     <>
-      <Card sx={{ maxWidth: 300, height:420 }} className="m-5 border border-4 text-justify">
+      <Card sx={{ maxWidth: 300, height:440 }} className="m-5 border border-4 text-justify">
         <Link to={link} target="_blank" style={{ textDecoration: "none", color: "inherit" }}>
           <CardActionArea>
             <CardMedia
