@@ -18,7 +18,7 @@ export default function Contact() {
             <h1 className="font-bold text-center text-white text-3xl md:text-5xl">Contact</h1>
             <div className="Content flex flex-col md:flex-row justify-center items-center mt-5">
               <ClickCard
-                image={LinkedinImage}
+                image={[LinkedinImage]}
                 judul="Linkedin"
                 desc="Linkedin"
                 tag="Halo semuanya, silakan untuk menghubungi saya bisa melalui Linkedin berikut. Terima Kasih !! 😀"

@@ -16,3 +16,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.slick-arrow:before {
+  color: black;
+  font-size: 40px;
+}

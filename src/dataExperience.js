@@ -1,7 +1,10 @@
 
-import Daspro from "../src/assets/xp-asset/daspro.jpeg"
-import EAD from "../src/assets/xp-asset/EAD.jpeg"
-import Bangkit from "../src/assets/xp-asset/bangkit.jpeg"
+import Daspro1 from "../src/assets/xp-asset/daspro/daspro1.jpeg"
+import Daspro2 from "../src/assets/xp-asset/daspro/daspro2.jpeg"
+import EAD1 from "../src/assets/xp-asset/ead/ead1.jpeg"
+import EAD2 from "../src/assets/xp-asset/ead/ead2.jpeg"
+import Bangkit1 from "../src/assets/xp-asset/bangkit/bangkit1.jpeg"
+import Bangkit2 from "../src/assets/xp-asset/bangkit/bangkit2.png"
 
 class Experience {
     constructor(id, image, judul, desc, tag, utils, link) {
@@ -17,9 +20,27 @@ class Experience {
 }
 
 const dataExperience = [
-    new Experience(1, Daspro, "Daspro Laboratory - Telkom University", "Asisten Praktikum - Media Team", "Mengajar pemrograman algoritma dalam bahasa pemrograman Python selama 6 bulan dan merancang modul praktikum dan konten untuk Laboratorium Daspro", "Python", null),
-    new Experience(2, EAD, "EAD Laboratory - Telkom University", "Asisten Praktikum - Lead Media Team", "Mengajar pengembangan web selama 5 bulan, memimpin tim Media dalam merancang modul untuk praktikum serta konten untuk Laboratorium EAD", "HTML + CSS + PHP + Laravel + Bootstrap", null),
-    new Experience(3, Bangkit, "Bangkit Academy", "Cohort Cloud Computing", "Mempelajari GCP dan node JS sebagai Backend dan membuat API untuk tim Mobile Development dan menerapkan model machine learning menggunakan App Engine dan Cloud Run", "GCP + NodeJS", null),
+    new Experience(1, 
+        [Daspro1, Daspro2], 
+        "Daspro Laboratory - Telkom University", 
+        "Asisten Praktikum - Media Team", 
+        "Mengajar kursus Algoritma Pemrograman selama enam bulan, membimbing siswa melalui konsep-konsep utama dalam pemrograman, terutama dalam bahasa pemrograman Python. Membuat modul praktikum yang komprehensif. Membuat konten pendidikan yang ditargetkan untuk Laboratorium Daspro, yang mendukung tujuan pembelajaran dasar dan lanjutan.", 
+        "Python", 
+        null),
+    new Experience(2, 
+        [EAD1, EAD2], 
+        "EAD Laboratory - Telkom University", 
+        "Asisten Praktikum - Lead Media Team", 
+        "Mengajar kursus Aplikasi Web selama enam bulan, membimbing siswa melalui konsep-konsep utama dalam pengembangan web dengan Laravel. Membuat modul praktikum yang komprehensif. Membuat konten pendidikan yang ditargetkan untuk mendukung tujuan pembelajaran dasar dan lanjutan di laboratorium pengembangan aplikasi perusahaan (EAD).", 
+        "HTML + CSS + PHP + Laravel + Bootstrap", 
+        null),
+    new Experience(3, 
+        [Bangkit1, Bangkit2], 
+        "Bangkit Academy", 
+        "Cohort Cloud Computing", 
+        "Membuat API untuk memfasilitasi kolaborasi antara tim Mobile Development dan Machine Learning. Merancang struktur penerapan yang dapat diskalakan dan tangguh untuk API. Memanfaatkan App Engine dan Cloud Run dari Google Cloud untuk menerapkan API, sehingga memungkinkan penskalaan yang fleksibel dan efisiensi biaya.", 
+        "GCP + NodeJS", 
+        null),
 ]
 
 
