@@ -1,10 +1,10 @@
 
-import Daspro1 from "../src/assets/xp-asset/daspro/daspro1.jpeg"
-import Daspro2 from "../src/assets/xp-asset/daspro/daspro2.jpeg"
-import EAD1 from "../src/assets/xp-asset/ead/ead1.jpeg"
-import EAD2 from "../src/assets/xp-asset/ead/ead2.jpeg"
-import Bangkit1 from "../src/assets/xp-asset/bangkit/bangkit1.jpeg"
-import Bangkit2 from "../src/assets/xp-asset/bangkit/bangkit2.png"
+import Daspro1 from "../src/assets/xp-asset/daspro/daspro1.webp"
+import Daspro2 from "../src/assets/xp-asset/daspro/daspro2.webp"
+import EAD1 from "../src/assets/xp-asset/ead/ead1.webp"
+import EAD2 from "../src/assets/xp-asset/ead/ead2.webp"
+import Bangkit1 from "../src/assets/xp-asset/bangkit/bangkit1.webp"
+import Bangkit2 from "../src/assets/xp-asset/bangkit/bangkit2.webp"
 
 class Experience {
     constructor(id, image, judul, desc, tag, utils, link) {
